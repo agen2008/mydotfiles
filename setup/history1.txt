@@ -1,0 +1,52 @@
+    2  cd /usr/share/fonts
+    3  sudo mkdir zh-cn
+    4  cd zh-cn
+    5  scp tanglq@192.168.18.3:/usr/share/fonts/zh-cn/* .
+    6  sudo scp tanglq@192.168.18.3:/usr/share/fonts/zh-cn/* .
+    7  sudo rm fonts.*
+    8  sudo mkfontdir
+    9  sudo mkfontscale
+   10  cat fonts.dir
+   11  cat fonts.scale
+   13  sudo fc-cache -rf
+   14  exit
+   15  date
+   17  history |less
+   18  ls
+   19  vi history.txt
+ssh agen@192.168.18.191
+exit
+sudo apt-get update 
+sudo apt-get upgrade 
+exit
+sudo apt-cache search remmina
+sudo apt-get install remmina
+exit
+ssh-keygen 
+cat .ssh/id_rsa.pub 
+ls
+l
+mkdir gitworks
+cd gitworks/
+sudo apt-get install git-core subversion ruby rake rubygems ri rdoc
+sudo apt-get install zsh tmux
+apt-cache search dmenu
+sudo apt-get install suckless-tools xlockmore
+git clone 
+git clone git@git.uhuila.cn:~liugenchang/mydotfile/liugenchangs-mainline.git mydotfile
+cd mydotfile/
+git st
+git status
+ls
+rake install
+cd
+vi .zshrc 
+cd -
+ls
+git status
+cd homefile/
+l
+exit
+sudo apt-get install awesome
+sudo vi /etc/passwd
+exit
